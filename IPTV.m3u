@@ -1,181 +1,75 @@
-#EXTM3U
-#EXTINF:0,CBS 4 South Florida
-#EXTVLCOPT:network-caching=1000
+#EXTM3U url-tvg="http://m3u4u.com/epg/xv158yx4g7ckmg1y9mwr"
+#EXTINF:-1 tvg-id="CBS4WFOR(src01).us" tvg-name="CBS (WFOR-TV 4 Miami)" tvg-logo="https://i.imgur.com/nkIJAz3.png" group-title="General" tvg-shift="-4",CBS (WFOR-TV 4 Miami)
 http://161.0.157.5/PLTV/88888888/224/3221227041/01.m3u8
-#EXTINF:0,FOX 5 New York (US)
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/fox
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/wnyw.m3u8
-#EXTINF:0,NBC 6 South Florida
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-id="WNYW.us" tvg-name="FOX (WNYW 5 New York)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/WNYW5.png" group-title="General" tvg-shift="-4",FOX (WNYW 5 New York)
+http://gma2.blab.email/fox.m3u8
+#EXTINF:-1 tvg-id="NBC6MiamiWTVJ(src01).us" tvg-name="NBC (WTVJ 6 Miami-Ft Lauderdale)" tvg-logo="https://i.imgur.com/W6A2wRS.png" group-title="General" tvg-shift="-4",NBC (WTVJ 6 Miami-Ft Lauderdale)
 http://161.0.157.5/PLTV/88888888/224/3221227040/01.m3u8
-#EXTINF:0,WABC 7 New York
-#EXTVLCOPT:http-referrer=https://sports24.club/tv/v?id=abc
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-https://cdn2.sports24.win/abc.m3u8
-#EXTINF:0,WNET PBS Thirteen New York
+#EXTINF:-1 tvg-id="WWORDT.us" tvg-name="MyTV9 (WWOR-TV New York)" tvg-logo="https://i.imgur.com/kswaRtt.png" group-title="General" tvg-shift="-4",MyTV9 (WWOR-TV New York)
+https://bozztv.com/fencoder01/teleup-mywwor/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="WNETDT.us" tvg-name="PBS New York (WNET Thirteen)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/WNET_logo_2011.svg/500px-WNET_logo_2011.svg.png" group-title="General" tvg-shift="-4",PBS New York (WNET Thirteen)
 https://rtmp-wnetdt.lls.cdn.pbs.org/rtmp-wnetdt/80f93f7f-9742-47b8-aa58-0c0ceb866d9f/primary.m3u8
-#EXTINF:0,KOCE-TV PBS SoCal
+#EXTINF:-1 tvg-id="KOCEDT.us" tvg-name="PBS SoCal (KOCE-TV 50)" tvg-logo="https://www.pbssocal.org/wp-content/themes/pbs-socal/libs/images/pbssocal-logo.jpg" group-title="General" tvg-shift="-4",PBS SoCal (KOCE-TV 50)
 https://kocedt.lls.cdn.pbs.org/kocedt/057f6e22-7d9c-4fd6-b968-bc17102698de/primary.m3u8
-#EXTINF:0,NBC Sports Northwest
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/nbcnw
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://yoursports.stream/nfl/nbcnw.m3u8
-#EXTINF:0,NESN
-#EXTVLCOPT:network-caching=1000
-https://bcovlive-a.akamaihd.net/d4672efa0b5645dba07441e049e161ff/us-west-2/6141518204001/playlist.m3u8
-#EXTINF:0,Marquee Sports Network
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/marquee
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/marquee.m3u8
-#EXTINF:0,ESPN
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/espn
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/0espn.m3u8
-#EXTINF:0,ESPN2
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/espn2
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/espn2.m3u8
-#EXTINF:0,ESPNews
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/espnnews
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/espnews.m3u8
-#EXTINF:0,MLB Network
-http://hlslive-akc-med1.media.mlb.com/ls01/mlbnetwork/NETWORK_LINEAR_1/master_wired.m3u8
-#EXTINF:0,FOX Sports 1 (US)
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/espn
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/fs1.m3u8
-#EXTINF:0,FOX Sports 2 (US)
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/fs2
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/fs2.m3u8
-#EXTINF:0,CBS Sports HQ
-#EXTVLCOPT:network-caching=1000
-https://sportshq-mediapackage-cedexis.cbsaavideo.com/out/v1/be87d7783e5c4270a5830ea5d1164850/desktop_7.m3u8
-#EXTINF:0,TBS
-https://tve-live-lln.warnermediacdn.com/hls/live/572094/tbse/aes_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0,TNT
-https://tve-live-lln.warnermediacdn.com/hls/live/572089/tnte/aes_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0,Olympic Channel
-#EXTVLCOPT:network-caching=1000
-https://iocchannel-i.akamaihd.net/hls/live/514135/olylinear0629221316/DomesticOlympicsLinear_VIDEO_1_4064000.m3u8
-#EXTINF:0,FX
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/fx
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/fxeast.m3u8
-#EXTINF:0,Paramount Network
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/paramount
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/paramount.m3u8
-#EXTINF:0,Comedy Central
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/comedycentral
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/comedy.m3u8
-#EXTINF:0,Pop TV
-https://live-poptv-fastly-prod.global.ssl.fastly.net/pop/master.m3u8
-#EXTINF:0,HGTV
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/hgtv
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/hgtv.m3u8
-#EXTINF:0,DIY Network
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/diy
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/diy.m3u8
-#EXTINF:0,TruTV
-#EXTVLCOPT:network-caching=1000
-https://tve-live-lln.warnermediacdn.com/hls/live/572100/true/aes_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0,TV Land
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/tvland
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/tvland.m3u8
-#EXTINF:0,Discovery Channel
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/discovery
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/discovery.m3u8
-#EXTINF:0,TLC
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/tlc
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/tlc.m3u8
-#EXTINF:0,CNN
-https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0,CBSN New York
-https://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/master.m3u8
-#EXTINF:0,CBSN Los Angeles
-https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8
-#EXTINF:0,CBSN Bay Area
-https://dai.google.com/linear/hls/event/VE8b4n-YStusEGv5Z2NmsQ/master.m3u8
-#EXTINF:0,Fox News Channel
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/foxnews
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/foxn.m3u8
-#EXTINF:0,Fox Business
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/foxbusiness
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/foxb.m3u8
-#EXTINF:0,Bloomberg Television
-https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8
-#EXTINF:0,Cartoon Network
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PBS Kids - West" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/PBS_Kids_Logo.svg/316px-PBS_Kids_Logo.svg.png" group-title="General" tvg-shift="-4",PBS Kids - West
+https://live-cdn.pbskids.org/out/u/pst.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PBS Kids - East" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/PBS_Kids_Logo.svg/316px-PBS_Kids_Logo.svg.png" group-title="General" tvg-shift="-4",PBS Kids - East
+https://live-cdn.pbskids.org/out/u/est.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork(Pacific).us" tvg-name="Cartoon Network - West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/320px-Cartoon_Network_2010_logo.svg.png" group-title="General" tvg-shift="-4",Cartoon Network - West
+https://tve-live-lln.warnermediacdn.com/hls/live/572108/toonw/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network - East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/320px-Cartoon_Network_2010_logo.svg.png" group-title="General" tvg-shift="-4",Cartoon Network - East
 https://tve-live-lln.warnermediacdn.com/hls/live/572106/toone/aes_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0,Disney Channel
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/disney
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/disney.m3u8
-#EXTINF:0,HLN
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CBSN" tvg-logo="https://www.crispincorp.com/wp-content/uploads/2018/02/CBSN-logo.png" group-title="General" tvg-shift="-4",CBSN
+https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/640px-CNN.svg.png" group-title="General" tvg-shift="-4",CNN
+https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/480px-CNN_International_logo.svg.png" group-title="General" tvg-shift="-4",CNN International
+https://tve-live-lln.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="HLN.us" tvg-name="HLN" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/480px-HLN_%28TV_network%29_2017_logo.svg.png" group-title="General" tvg-shift="-4",HLN
 https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:0,Discovery Life
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/disclife
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/disclife.m3u8
-#EXTINF:0,The Weather Channel
-#EXTVLCOPT:network-caching=1000
-http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
-#EXTINF:0,BET
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/bet
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/bet.m3u8
-#EXTINF:0,CMT
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/cmt
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/cmt.m3u8
-#EXTINF:0,MTV
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/mtv
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/mtv.m3u8
-#EXTINF:0,MSNBC
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/480px-Fox_News_Channel_logo.svg.png" group-title="General" tvg-shift="-4",Fox News Channel
+http://1111296894.rsc.cdn77.org/ls-54548-2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/MSNBC_2015_logo.svg/640px-MSNBC_2015_logo.svg.png" group-title="General" tvg-shift="-4",MSNBC
 https://ctl.stream.msnbc.com/live/MSNBC398a080a-ua/master.m3u8
-#EXTINF:0,ESPNU
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/espnu
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/espnu.m3u8
-#EXTINF:0,TCM
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-id="Bloomberg.us" tvg-name="Bloomberg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bloomberg_Television_2016.png" group-title="General" tvg-shift="-4",Bloomberg
+https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8
+#EXTINF:-1 tvg-id="TheWeatherChannel.us" tvg-name="The Weather Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/480px-The_Weather_Channel_logo_2005-present.svg.png" group-title="General" tvg-shift="-4",The Weather Channel
+http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="FOX Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/640px-2015_Fox_Sports_1_logo.svg.png" group-title="General" tvg-shift="-4",FOX Sports 1
+https://gma2.blab.email/fs1.m3u8
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://i.imgur.com/ukBnuR9.png" group-title="General" tvg-shift="-4",ESPN
+https://gma2.blab.email/espn.m3u8
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://i.imgur.com/tMopDxK.png" group-title="General" tvg-shift="-4",ESPN2
+https://gma2.blab.email/espn2.m3u8
+#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/465px-MLBNetworkLogo.svg.png" group-title="General" tvg-shift="-4",MLB Network
+http://hlslive-akc-med1.media.mlb.com/ls01/mlbnetwork/NETWORK_LINEAR_1/master_wired.m3u8
+#EXTINF:-1 tvg-id="OlympicChannel.us" tvg-name="Olympic Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Olympic_Channel_logo.png/640px-Olympic_Channel_logo.png" group-title="General" tvg-shift="-4",Olympic Channel
+https://iocchannel-i.akamaihd.net/hls/live/514135/olylinear0629221316/DomesticOlympicsLinear_VIDEO_0_7064000.m3u8
+#EXTINF:-1 tvg-id="NBCSports" tvg-name="NBC Sports Northwest" tvg-logo="https://i.imgur.com/PkLyOAN.png" group-title="General" tvg-shift="-4",NBC Sports Northwest
+http://tvecsnnorthwest-i.akamaihd.net/hls/live/221535/CSNnorthwestx/351XCSN4200.m3u8
+#EXTINF:-1 tvg-id="NewEnglandSportsNetwork.us" tvg-name="NESN" tvg-logo="https://i.imgur.com/RQEFT9z.png" group-title="General" tvg-shift="-4",NESN
+https://bcovlive-a.akamaihd.net/d4672efa0b5645dba07441e049e161ff/us-west-2/6141518204001/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Adult Swim - East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/660px-Adult_Swim_2003_logo.svg.png" group-title="General" tvg-shift="-4",Adult Swim - East
+https://tve-live-lln.warnermediacdn.com/hls/live/572116/swime/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork(Pacific).us" tvg-name="Adult Swim - West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/660px-Adult_Swim_2003_logo.svg.png" group-title="General" tvg-shift="-4",Adult Swim - West
+https://tve-live-lln.warnermediacdn.com/hls/live/572114/swimw/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS - East" tvg-logo="https://i.imgur.com/42LgYF9.png" group-title="General" tvg-shift="-4",TBS - East
+https://tve-live-lln.warnermediacdn.com/hls/live/572094/tbse/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TBS(Pacific).us" tvg-name="TBS - West" tvg-logo="https://i.imgur.com/42LgYF9.png" group-title="General" tvg-shift="-4",TBS - West
+https://tve-live-lln.warnermediacdn.com/hls/live/572097/tbsw/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT - East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/240px-TNT_Logo_2016.svg.png" group-title="General" tvg-shift="-4",TNT - East
+https://tve-live-lln.warnermediacdn.com/hls/live/572089/tnte/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT(Pacific).us" tvg-name="TNT - West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/240px-TNT_Logo_2016.svg.png" group-title="General" tvg-shift="-4",TNT - West
+https://tve-live-lln.warnermediacdn.com/hls/live/572093/tntw/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TurnerClassicMovies.us" tvg-name="TCM - East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TCM_logo.svg/320px-TCM_logo.svg.png" group-title="General" tvg-shift="-4",TCM - East
 https://tve-live-lln.warnermediacdn.com/hls/live/572111/tcme/aes_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0,Hallmark Channel
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TCM - West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TCM_logo.svg/320px-TCM_logo.svg.png" group-title="General" tvg-shift="-4",TCM - West
+https://tve-live-lln.warnermediacdn.com/hls/live/572112/tcmw/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="truTV.us" tvg-name="TruTV - East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/320px-TruTV_2014.svg.png" group-title="General" tvg-shift="-4",TruTV - East
+https://tve-live-lln.warnermediacdn.com/hls/live/572100/true/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="truTV(Pacific).us" tvg-name="TruTV - West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/320px-TruTV_2014.svg.png" group-title="General" tvg-shift="-4",TruTV - West
+https://tve-live-lln.warnermediacdn.com/hls/live/572104/truw/aes_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="POP.us" tvg-name="Pop TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pop_Network_Logo.png/320px-Pop_Network_Logo.png" group-title="General" tvg-shift="-4",Pop TV
+https://live-poptv-fastly-prod.global.ssl.fastly.net/pop/master.m3u8
+#EXTINF:-1 tvg-id="HallmarkChannel.us" tvg-name="Hallmark Channel" tvg-logo="https://raw.githubusercontent.com/zag2me/TheLogoDB/master/Images/Hallmark_Channel.png" group-title="General" tvg-shift="-4",Hallmark Channel
 http://crownmediaingest.akamaized.net/hls/live/567739/cm/master.m3u8?hdnts=exp=3057881094~acl=/*~hmac=4264d1c001ef570782680f1994b326daf30b68110de48b2d2b9ea18ae00cfd4c
-#EXTINF:0,Hallmark Movies & Mysteries
-#EXTVLCOPT:network-caching=1000
-http://crownmediaingest.akamaized.net/hls/live/567739/mm/master.m3u8?hdnts=exp=3058190550~acl=/*~hmac=2666296ecc6a706ca24f80f43e1d01ef67df3202fa1648c0b8cbcbd9d5ddcf68
-#EXTINF:0,FXX
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/fxx
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/fxx.m3u8
-#EXTINF:0,FXM
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/fxm
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/fxm.m3u8
-#EXTINF:0,Investigation Discovery
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/id
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/id.m3u8
-#EXTINF:0,SEC Network
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/sec
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.quickcpa.org/srv/sec.m3u8
-#EXTINF:0,ACC Network
-#EXTVLCOPT:http-referrer=http://yoursports.stream/ing/acc
-#EXTVLCOPT:http-user-agent=(insert user agent here)
-http://l3c.rstrm.club/srv/acc.m3u8
